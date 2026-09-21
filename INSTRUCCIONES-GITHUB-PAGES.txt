@@ -1,0 +1,21 @@
+COMO PUBLICAR ESTA PAGINA EN GITHUB PAGES
+
+1. Descomprime el archivo ZIP.
+2. Crea un repositorio nuevo en GitHub.
+3. Sube TODOS los archivos descomprimidos directamente a la raiz del repositorio.
+   Es importante que index.html no quede dentro de otra carpeta.
+4. Abre Settings > Pages.
+5. En "Build and deployment", selecciona "Deploy from a branch".
+6. Elige la rama "main", la carpeta "/ (root)" y presiona Save.
+7. Espera unos minutos. GitHub mostrara la direccion publica de la pagina.
+
+ARCHIVOS PRINCIPALES
+
+- index.html: pagina inicial.
+- carta.html: jardin nocturno y carta para Sarai.
+- styles.css y fix.css: estilos de la pagina inicial.
+- script.js: botones, musica y animaciones de la pagina inicial.
+- assets/music: las ocho canciones en formato MP3.
+- assets/covers: las portadas de cada cancion.
+
+La pagina utiliza rutas relativas y esta preparada para funcionar en GitHub Pages.

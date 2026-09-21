@@ -1,0 +1,15 @@
+.hero::before,
+.garden {
+  pointer-events: none;
+}
+
+.letter-btn {
+  position: relative;
+  z-index: 12;
+  display: inline-flex;
+  align-items: center;
+  color: #fffdeb;
+  text-decoration: none;
+  touch-action: manipulation;
+  pointer-events: auto;
+}
